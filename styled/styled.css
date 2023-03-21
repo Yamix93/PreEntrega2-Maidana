@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2? family= Source+Serif+Pro:wght@300 & display=swap");
+
+body {
+  background-color: black !important;
+  font-family: "Source Serif Pro", serif;
+  margin: 0px;
+}
+
+.linksDeNavegacion {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #858585;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.ubicacionLi {
+  display: flex;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  justify-content: space-around;
+}
+
+.navegacion {
+  text-decoration: none;
+  color: yellow;
+}
+
+.formatoLi {
+  list-style-type: none;
+}
+
+.titulo {
+  color: rgb(196, 196, 40);
+  display: block;
+  margin: 50px 0px 50px 0px;
+  text-align: center;
+  font-size: 60px;
+}
+
+.ubicacionParrafo {
+  color: yellow;
+  border-style: solid;
+}
+
+.ubicacionParrafoEquipo {
+  display: flex;
+  padding: 15px;
+  color: yellow;
+}
+
+.contenedorImgYTexto {
+  display: flex;
+  justify-content: space-evenly;
+  color: yellow;
+  align-items: center;
+}
+
+.imagenPrincipalEquipo {
+  justify-content: center;
+  width: 700px;
+  border-style: solid;
+  border-radius: 10px;
+  color: rgb(196, 196, 40);
+}
+
+.colorFormaParrafo {
+  text-align: center;
+  color: yellow;
+  width: 100%;
+  padding: 10px;
+  margin: 0px;
+}
+
+.estiloTextoIndex {
+  display: grid;
+  border-style: solid;
+  color: yellow;
+  justify-content: center;
+  padding: 10px 0px 10px 0px;
+}
+
+.contenedorEstadisticaGrid {
+  display: flex;
+  flex-direction: column;
+}
+
+.imgEstadistica {
+  border: solid yellow;
+  border-radius: 8px;
+  height: 280px;
+  width: 320px;
+}
+
+.imgPocho {
+  border: solid yellow;
+  border-radius: 8px;
+  height: 280px;
+  width: 320px;
+}
+
+.contenedorImgTituloEstadistica {
+  text-align: center;
+}
+
+.TituloEstadistica {
+  color: yellow;
+}
+
+.itemsEstadistica {
+  padding-left: 0px;
+}
+
+.contenedorPrincipal {
+  display: flex;
+  align-items: center;
+  padding: 0px 20px 0px 20px;
+}
+
+.contenedorJugadores {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenedorJugadoresYTitulos {
+  display: flex;
+}
+
+.contenedorParrafo {
+  height: auto;
+  width: 300px;
+  text-align: center;
+  color: yellow;
+  border-style: solid;
+  margin: 20px;
+  font-size: 20px;
+  padding: 0px 10px 0px 10px;
+}
+
+.marcoTituloJugador {
+  justify-content: center;
+  display: flex;
+}
+
+.textoTitulo {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  margin: 0;
+}
+
+.tituloJugador {
+  text-align: center;
+  background-color: yellow;
+  font-size: larger;
+  border-radius: 16px;
+  width: 200px;
+  margin-top: 30px;
+  color: black;
+  margin-bottom: 30px;
+  height: 62px;
+}
+
+.imgJugador {
+  border-style: solid;
+  border-radius: 5px;
+  color: yellow;
+  height: 250px;
+  width: 350px;
+  margin: 10px;
+}
+
+.contenedorDesafio {
+  width: auto;
+  color: yellow;
+}
+
+.parrafoDesafio {
+  font-size: medium;
+  color: yellow;
+  margin-top: 20px;
+}
+
+.textoFinal {
+  text-align: center;
+  font-size: larger;
+  color: yellow;
+}
+
+.contenedorImgDesafio {
+  margin: 40px 0px 20px 0px !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenedorVdDesafio {
+  justify-content: center;
+  align-items: end;
+  border-style: solid;
+  color: black;
+}
+
+.imgDesafio {
+  background-color: antiquewhite;
+  height: 300px;
+  width: 400px;
+  border-style: solid;
+  border-radius: 4px;
+  color: yellow;
+}
+
+.videoDesafio {
+  width: 100%;
+  border-style: solid;
+  border-radius: 4px;
+  color: yellow;
+}
+
+.pieDePagina {
+  display: flex;
+  margin-top: 40px;
+  background-color: gray;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  position: absolute;
+  width: 100%;
+}
+
+.imgDePie {
+  display: flex;
+  height: 40px;
+  width: auto;
+}
+
+.imgYoutube {
+  height: 60px;
+  width: auto;
+}
+
+@media (max-width: 1370px) {
+  .contenedorPrincipal {
+    flex-direction: column;
+  }
+  .contenedorParrafo {
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+  }
+}
+@media (max-width: 1110px) {
+  .contenedorJugadoresYTitulos {
+    flex-direction: column;
+  }
+  .imgDesafio {
+    width: inherit;
+  }
+}
